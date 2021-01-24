@@ -7,7 +7,7 @@ function Layout({ children }) {
     <div>
       <Navbar />
 
-      <div className="px-52">
+      <div className="lg:px-52">
         {children}
       </div>
 
