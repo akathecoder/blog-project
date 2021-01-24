@@ -1,9 +1,82 @@
 import Head from "next/head";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <div>
+    <Layout>
       <h1>Hello World</h1>
-    </div>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+    </Layout>
   );
 }
