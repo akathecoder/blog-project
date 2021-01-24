@@ -9,7 +9,7 @@ import {
 
 function Footer() {
   return (
-    <div className="py-28">
+    <div className="py-28 px-52 bg-background-footer">
       {/* Footer Links */}
       <div className="grid grid-cols-2 md:grid-cols-4 place-items-center">
         {/* Logo */}

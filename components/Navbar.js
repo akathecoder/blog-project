@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <header className="bg-white pt-6 align-middle -ml-2 font-display">
+      <header className="bg-white pt-6 align-middle -ml-2 font-display px-52">
         {/* Website Logo, Search & Log in Options */}
         <div className="flex justify-between">
           <h1 className="text-3xl font-semibold ml-16">
@@ -11,8 +11,9 @@ function Navbar() {
           </h1>
         </div>
       </header>
+
       {/* Different Topics */}
-      <div className="my-6 sticky top-0 bg-white py-6 align-middle font-display font-medium">
+      <div className="my-6 sticky top-0 bg-white py-6 align-middle font-display font-medium px-52">
         <ul className="flex justify-around text-lg text-gray-500 ">
           <li>Home</li>
           <li>UI/UX Design</li>
