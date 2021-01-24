@@ -12,6 +12,11 @@ module.exports = {
           "Roboto",
         ],
       },
+      colors: {
+        background: {
+          footer: "#FBFBFB",
+        },
+      },
     },
   },
   variants: {
