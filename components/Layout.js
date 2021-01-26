@@ -4,10 +4,10 @@ import Navbar from "./Navbar";
 
 function Layout({ children }) {
   return (
-    <div>
+    <div className="font-display">
       <Navbar />
 
-      <div className="lg:px-52">
+      <div className="lg:px-64">
         {children}
       </div>
 
