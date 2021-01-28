@@ -1,15 +1,25 @@
 import React from "react";
 import find from "list-files";
 import { getPostBySlug } from "../../lib/api";
-import markdownToHtml from "../../lib/markdownToHtml";
+import ReactMarkdown from "react-markdown";
+import "../../styles/post.module.css";
+import { H1 } from "../../lib/postCss";
 
 function slug({ post }) {
-  console.log(post);
+  // console.log(post);
 
   return (
     <div>
       <h1>Hello</h1>
-      {post.content}
+      <div className="post">
+        <ReactMarkdown
+          renderers={{
+            heading: H1,
+          }}
+        >
+          {post.content}
+        </ReactMarkdown>
+      </div>
     </div>
   );
 }
@@ -32,9 +42,11 @@ export async function getStaticProps({
     ]
   );
 
-  const content = await markdownToHtml(
-    post.content || ""
-  );
+  // const content = await markdownToHtml(
+  //   post.content || ""
+  // );
+
+  const content = post.content;
 
   return {
     props: {
